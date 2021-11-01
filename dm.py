@@ -42,7 +42,7 @@ st.caption("Boruta score of daily recovered cases")
 st.image("https://raw.githubusercontent.com/Heeuul/DMProject/main/q3table.png") 
 
 st.write("Next, data modelling was performed with feature selection based on the Boruta scores. Multiple methods are used to compare their accuracy. The methods are regression and classification models of decision trees and random forests. After running each of the methods, following are the accuracy results: ") 
-st.caption("Accuration score of data models") 
+st.caption("Accuracy score of data models") 
 st.image("https://raw.githubusercontent.com/Heeuul/DMProject/main/q3table2.png") 
 st.write("Based on the results, random forest(regression) works best on predicting the recovery rate of the datasets. ") 
 
