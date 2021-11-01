@@ -28,3 +28,10 @@ st.write("Based on the stacked bar charts, the states that requires attention no
 
 st.header("3 – Which Data Modelling Method Best Predicts the Recovery Rate? ") 
 st.write("The datasets used in this question is cases_malaysia.csv and vax_malaysia.csv. Both datasets are first merged, and the date is dropped before the next step. Then, feature selection is performed using Boruta on the daily recovered cases. The Boruta scores after removing features under 0.5 are as follows: ") 
+st.image("https://raw.githubusercontent.com/Heeuul/DMProject/main/q3table.png")
+
+st.write("Next, data modelling was performed with feature selection based on the Boruta scores. Multiple methods are used to compare their accuracy. The methods are regression and classification models of decision trees and random forests. After running each of the methods, following are the accuracy results: ") 
+st.image("https://raw.githubusercontent.com/Heeuul/DMProject/main/q3table2.png") 
+st.write("Based on the results, random forest(regression) works best on predicting the recovery rate of the datasets. ") 
+
+st.write("4 - Is there any correlation on vaccination and daily cases between states? ") 
